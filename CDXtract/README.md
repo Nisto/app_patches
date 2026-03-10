@@ -1,11 +1,17 @@
-## CDXtract
-Currently supported versions:
-* 4.5
+# CDXtract
 
-## Important
-The executable must be unpacked since the original uses a packed format. You have to do this at your own leasure.
+CDXtract is a tool originally developed by Bernard Chavonnet for playing and converting sample libraries in formats such as AKAI, Roland and Kurzweil. The program has been abandoned since around 2007 and this patcher primarily aims to fix support for more modern versions of Windows.
 
 ## Fixes implemented
-- [x] Occasional random crashes in Windows 7+
-- [ ] ~~Partitions not loading in Windows 10 & 11~~
-- [ ] ~~Static and channel desyncs in Windows 10 & 11~~
+
+Addresses the following issues with **CDXtract 4.5**:
+- [x] Occasional random crashes when starting playback in Windows 7 and later
+- [ ] Partitions not showing/loading correctly on Windows 10,11
+- [ ] Static audio on Windows 10,11
+- [ ] Channel desyncs in Windows 10,11
+
+## Usage
+
+**Before attempting to use this patcher, _you must unpack the original executable_ as it is originally compressed**. I am unable to provide guidance for how to do this and it has to be done at your own risk.  
+
+Once patched, place the new executable in the original install directory. The new executable can co-exist with the original executable, but you must start the application via the new executable to take advantage of these bugfixes.
