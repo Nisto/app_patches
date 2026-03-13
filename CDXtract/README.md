@@ -6,9 +6,6 @@ CDXtract is a tool originally developed by Bernard Chavonnet for playing and con
 
 Addresses the following issues with **CDXtract 4.5**:
 - [x] Occasional random crashes when starting playback in Windows 7 and later
-- [ ] Partitions not showing/loading correctly on Windows 10,11
-- [ ] Static audio on Windows 10,11
-- [ ] Channel desyncs in Windows 10,11
 
 ## Usage
 
